@@ -83,4 +83,3 @@ class DecisionTreeID3:
                 ans[1] = feature
 
         return ans[1]
-
