@@ -26,4 +26,3 @@ class Perceptron:
                 if y_shuffled[idx] * np.dot(x_i, self.weights) <= 0:
                     self.weights += self.learning_rate * y_shuffled[idx] * x_i
             
-            # print(f"Epoch {epoch+1}/{self.T}, Weights: {self.weights}")
